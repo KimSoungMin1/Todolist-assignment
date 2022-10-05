@@ -59,7 +59,7 @@ function addTodo(){
     function to(){
         if(checkbox.checked){
             b--;
-            count.innerHTML=b
+            count.innerHTML=b+'개'
         }
     }
 }
